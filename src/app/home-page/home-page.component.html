@@ -1,2 +1,23 @@
+<div class="container row">
+  <div class="col-8 border border-primary rounded-left">
+    <p>Home Page</p>
+    <button mat-raised-button color="accent" (click)="getAllNews()">
+      Get News
+    </button>
+    <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+  </div>
 
-<p>Hello Worlds</p>
+  <div class="col overflow-auto sideComponentDiv">
+    <div
+    class="border border-warning rounded-left"
+    *ngFor="let i of allNewsData?.articles"
+  >
+    <home-side-component
+      [time]="i.publishedAt"
+      [source]="i.url"
+      [description]="i.description"
+    ></home-side-component>
+  </div>
+  </div>
+  
+</div>

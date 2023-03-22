@@ -1,0 +1,8 @@
+/* *{
+    padding-left: 3rem;
+} */
+
+.sideComponentDiv{
+    overflow: scroll;
+    height: 100%;
+}

@@ -5,8 +5,10 @@
       Get News
     </button>
     <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+    <cron-editor [formControl]="cronForm" [options]="cronOptions"></cron-editor>
+    <p>Expression</p>
   </div>
-
+ 
   <div class="col overflow-auto sideComponentDiv">
     <div
     class="border border-warning rounded-left"

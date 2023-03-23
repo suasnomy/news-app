@@ -12,6 +12,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeSideComponentComponent } from './home-side-component/home-side-component.component';
 import {MatIconModule} from '@angular/material/icon'
+import { CronEditorModule } from 'ngx-cron-editor';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import {MatIconModule} from '@angular/material/icon'
     HttpClientModule,
     MatButtonModule,
     NgbModule,
-    MatIconModule
+    MatIconModule,
+    CronEditorModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

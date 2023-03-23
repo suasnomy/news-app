@@ -1,6 +1,7 @@
 # NewsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+Hosted Link: https://newsapp-3cf61.web.app/
 
 ## Development server
 
